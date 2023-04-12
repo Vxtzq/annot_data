@@ -22,7 +22,7 @@ Useful keybind in the annotation program :
 - 'n' to skip image
 - 'c' to crop (for zooming on a restricted area, this cannot be undoned)
 
-What are the advantages and inconvenients of this program :
+##What are the advantages and inconvenients of this program :
 
  ✔️  Easy to use
  
