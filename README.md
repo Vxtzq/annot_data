@@ -2,12 +2,13 @@
 For yolov4 custom model train : annot data easily with this simple tool.
 To use with this repo : https://github.com/AlexeyAB/darknet
 # How to use
-open terminal and type following commands
+open terminal and type following commands : 
+
 ```git clone https://github.com/proplayer2020/annot_data/ ```
 
 ```cd annot_data```
   
-  then naviguate to the images folder into annot_data and put your dataset here  
+  then naviguate to the images folder into annot_data and put your dataset here then, execute annotation code : 
   
 ```python3 annot_tool.py```
 
