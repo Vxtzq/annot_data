@@ -11,4 +11,15 @@ Dont forget before to put images in the images folder
 
 If you see an image (from your dataset) appearing on the screen, its most likely that its working
 
+Useful keybind in the annotation program : 
+- 'q' to quit
+- 'n' to skip image
+- 'c' to crop (for zooming on a restricted area, this cannot be undoned)
 
+Once all of the images are annoted, enter in terminal : 
+- python3 traintest_split.py images_nb=<number of image to put in test set>
+This code will split all annoted images into two .txt files : train.txt and test.txt.
+Images_nb arg is to define the number of images in test.txt set (at least 10-15 percent)
+All other images will go into train set.
+
+# Now you are all set to go to this repo and train your model : https://github.com/AlexeyAB/darknet
