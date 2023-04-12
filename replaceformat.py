@@ -4,5 +4,5 @@ def replace(name):
   name = name.replace("jpg","")
   name = name.replace("png","")
   name = name.replace("jpeg","")
-  
+  return name
   
