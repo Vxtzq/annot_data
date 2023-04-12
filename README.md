@@ -21,8 +21,8 @@ Once all of the images are annoted, enter in terminal :
 This code will split all annoted images into two .txt files : train.txt and test.txt.
 Images_nb arg is to define the number of images in test.txt set (at least 10-15 percent)
 All other images will go into train set.
-
-# Now you are all set to go to this repo and train your model (yolov4): 
+Now you are all set to train a custom model with the githu below !
+# Train custom yolov4 model with this github using the data this repository provides by following all the steps: 
   https://github.com/AlexeyAB/darknet
   
 #Usefull links for begginners to custom yolo model training (in the link below): 
