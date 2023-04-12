@@ -1,0 +1,1 @@
+This directory will contain train and test .txt required for darknet custom model train after traintest_split.py
