@@ -22,5 +22,5 @@ This code will split all annoted images into two .txt files : train.txt and test
 Images_nb arg is to define the number of images in test.txt set (at least 10-15 percent)
 All other images will go into train set.
 
-# Now you are all set to go to this repo and train your model : 
+# Now you are all set to go to this repo and train your model (yolov4): 
   https://github.com/AlexeyAB/darknet
