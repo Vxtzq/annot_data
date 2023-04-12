@@ -24,13 +24,13 @@ Useful keybind in the annotation program :
 
 What are the advantages and inconvenients of this program :
 
- ✅  Easy to use
+ ✔️  Easy to use
  
- ✅  Totally free to use and no liscence
+ ✔️  Totally free to use and no liscence
  
- ✅  99% working lol
+ ✔️  99% working lol
  
- ✅  Im active and will respond to all of your concerns
+ ✔️  Im active and will respond to all of your concerns
  
  ❌ A bit slow to refresh (made with matplotlib lol)
  
