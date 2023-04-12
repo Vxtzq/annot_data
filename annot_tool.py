@@ -51,7 +51,7 @@ def on_move(event):
                 rects.append(rect2)
                 
                     
-                print("sus")
+                
                 ax.add_patch(rect)
                 
                 plt.pause(0.0001)
@@ -68,7 +68,7 @@ def on_close(event):
 def on_key(event):
     global crop,nextimage
     if event.key == 'q':
-        print("end")
+        
         sys.exit()
     if event.key == 'c':
         crop = -crop
@@ -157,9 +157,9 @@ def on_click(event):
 
                 plt.pause(0.0001)
                 nextimage = True
-                print(nextimage)
+                
                 coordlist.append(coordval)
-                print(coordlist)
+                
                 line = {filename : coordlist}
                 
             if crop == 1:
@@ -170,11 +170,11 @@ def on_click(event):
                 
                 im = im[int(firstcoord[1]):int(firstcoord[1])+int(h), int(firstcoord[0]):int(firstcoord[0])+int(w)]
                 
-                print(np.shape(im))
+                
                 im = cv2.resize(im, dsize=(416, 416), interpolation=cv2.INTER_CUBIC)
                 ax.imshow(im)
                 
-                #print("select by other side")
+                
                 
                 plt.pause(0.0001)
                 
@@ -188,7 +188,7 @@ def on_click(event):
                 counter +=1
                 crop = -crop
         #if event.button is MouseButton.RIGHT:
-print("test")    
+
 first = 1
 for file in glob("images/*"):
     filename = file
@@ -212,7 +212,7 @@ for file in glob("images/*"):
         pass
         
             
-    #print("kjdflffsdhkdjdsfhjsdkkfdjdfk")
+    
     nextimage = False
            
         
