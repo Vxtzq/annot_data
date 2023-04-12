@@ -22,12 +22,18 @@ Useful keybind in the annotation program :
 - 'n' to skip image
 - 'c' to crop (for zooming on a restricted area, this cannot be undoned)
 
-`What are the advantages and inconvenients of this program :`
+What are the advantages and inconvenients of this program :
+
  ✅  Easy to use
+ 
  ✅  Totally free to use and no liscence
+ 
  ✅  99% working lol
+ 
  ✅  Im active and will respond to all of your concerns
+ 
  ❌ A bit slow to refresh (made with matplotlib lol)
+ 
  ❌ Sometimes the bounding box do weird things, (in that case type 'n' to go to next image and then delete the faulty image)
 
 Once all of the images are annoted, enter in terminal : 
