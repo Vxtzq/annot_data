@@ -1,3 +1,4 @@
+from replaceformat import *
 from matplotlib.backend_bases import MouseButton
 import matplotlib.pyplot as plt
 import numpy as np
@@ -6,7 +7,7 @@ from glob import glob
 from xml.etree import ElementTree as ET
 import cv2
 import os
-import json
+
 import time
 crop =-1
 import sys
@@ -111,7 +112,9 @@ def on_click(event):
                 # Reading data from the xml file
                 
                 newname = filename.replace("images/","")
-                newname = newname.replace(".jpg","")
+                
+                newname = replace(newname)
+                
                 file = open("images/"+newname+".txt","a")
                 firstcoord[0] = round(firstcoord[0],5)
                 firstcoord[1] = round(firstcoord[1],5)
@@ -139,9 +142,7 @@ def on_click(event):
                 print(secondcoord[1])
                 
                 
-                save_path_file = save_path_file.replace(".jpg","")
-                print(save_path_file)
-                save_path_file = save_path_file
+                
 
                 
 
