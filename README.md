@@ -5,6 +5,7 @@ To use with this repo : https://github.com/AlexeyAB/darknet
 open terminal and type following commands
 - git clone https://github.com/proplayer2020/annot_data/ 
 - cd annot_data
+  
   naviguate to the images folder into annot_data and put your dataset here                            
 - python3 annot_tool.py
 
