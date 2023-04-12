@@ -28,7 +28,9 @@ All other images will go into train set.
 # Usefull links for begginners to custom yolo model training (in the link below): 
 
   -https://github.com/AlexeyAB/darknet#how-to-compile-on-linux-using-make - once the darknet repo downloaded, compile it using make command
+  
   -https://github.com/AlexeyAB/darknet#how-to-train-to-detect-your-custom-objects - train custom yolov2, v3 or v4  (if you have used this repo, do yolov4)
+  
   -https://github.com/AlexeyAB/darknet#how-to-train-tiny-yolo-to-detect-your-custom-objects - train yolov4 TINY for mobile developpmen
 
 # Help
