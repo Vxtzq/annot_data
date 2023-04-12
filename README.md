@@ -1,4 +1,4 @@
-# Read all this before starting
+#Read all this before starting
 # Description
 For yolov4 custom model train : annot data easily with this simple tool.
 To use with this repo : https://github.com/AlexeyAB/darknet
