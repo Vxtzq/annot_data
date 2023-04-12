@@ -25,7 +25,7 @@ All other images will go into train set.
 # Now you are all set to go to this repo and train your model (yolov4): 
   https://github.com/AlexeyAB/darknet
   
-# Usefull links for begginners to custom yolo model training (in the link below): 
+#Usefull links for begginners to custom yolo model training (in the link below): 
 
   -https://github.com/AlexeyAB/darknet#how-to-compile-on-linux-using-make - once the darknet repo downloaded, compile it using make command
   
