@@ -2,7 +2,7 @@
 For yolov4 custom model train : annot data easily with this simple tool.
 To use with this repo : https://github.com/AlexeyAB/darknet
 # How to use
-open terminal and type following commands : 
+open a terminal and type following commands : 
 
 ```git clone https://github.com/proplayer2020/annot_data/ ```
 
