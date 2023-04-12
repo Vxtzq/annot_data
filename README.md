@@ -1,5 +1,3 @@
-#Read all this before starting
-s
 # Description
 For yolov4 custom model train : annot data easily with this simple tool.
 To use with this repo : https://github.com/AlexeyAB/darknet
@@ -42,3 +40,5 @@ Now you are all set to train a custom model with the githu below !
 
 # Help
 feel free to post issue, im active and i will try to respond to your questions
+# Other usefull tools : 
+use "convertdataset.py" to resize all images and convert them to jpg (no image replacing, but if you dont want all images to be sort of duplicated, do it in another directory) 
