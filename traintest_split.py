@@ -10,7 +10,7 @@ for file in glob("images/*"):
     if not "txt" in file:
         alltxt.append(file)
 file = open("result/test.txt","w")     
-for i in range(int(args.nb_images.replace("nb_images=",""))):
+for i in range(int(args.nb_images.replace("images_nb=",""))):
     name = str(alltxt[counter])
     file.write(os.path.abspath(name))
     counter +=1
