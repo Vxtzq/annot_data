@@ -138,14 +138,7 @@ def on_click(event):
 
                 print(firstcoord[1])
                 print(secondcoord[1])
-                data = data.replace("13",str(firstcoord[0]))
-                data = data.replace("14",str(firstcoord[1]))
-                data = data.replace("15",str(secondcoord[0]))
-                data = data.replace("16",str(secondcoord[1]))
-                data = data.replace("fn",str(filename))
-                data = data.replace("ay",str(filename))
-                #save_path_file = str(filename) +".xml"
-                # = filename + ".xml"
+                
                 
                 save_path_file = save_path_file.replace(".jpg","")
                 print(save_path_file)
