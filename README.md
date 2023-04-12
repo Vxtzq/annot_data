@@ -8,7 +8,7 @@ open terminal and type following commands :
 
 ```cd annot_data```
   
-  then naviguate to the images folder into annot_data and put your dataset here then, execute annotation code : 
+  then naviguate to the "images" folder into annot_data and put your dataset here then, execute annotation code : 
   
 ```python3 annot_tool.py```
 
