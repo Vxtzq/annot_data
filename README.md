@@ -20,7 +20,9 @@ Useful keybind in the annotation program :
 - 'c' to crop (for zooming on a restricted area, this cannot be undoned)
 
 Once all of the images are annoted, enter in terminal : 
-- python3 traintest_split.py images_nb=<number of image to put in test set>
+
+```python3 traintest_split.py images_nb=<number of image to put in test set>```
+
 This code will split all annoted images into two .txt files : train.txt and test.txt.
 Images_nb arg is to define the number of images in test.txt set (at least 10-15 percent)
 All other images will go into train set.
