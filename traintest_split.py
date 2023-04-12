@@ -15,7 +15,7 @@ for i in range(int(args.nb_images.replace("nb_images=",""))):
     file.write(os.path.abspath(name))
     counter +=1
 file = open("result/train.txt","w")  
-for i in range(len(alltxt)-int(args.nb_images.replace("nb_images=",""))):
+for i in range(len(alltxt)-int(args.nb_images.replace("images_nb=",""))):
     name = str(alltxt[counter])
     file.write(os.path.abspath(name))
     counter +=1
