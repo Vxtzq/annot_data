@@ -146,9 +146,7 @@ def on_click(event):
                 data = data.replace("ay",str(filename))
                 #save_path_file = str(filename) +".xml"
                 # = filename + ".xml"
-                filename2 = filename.replace("/home/pierre/Documents/machinelearning/abeilles/fleurnew/","")
-
-                save_path_file = "/home/pierre/Documents/machinelearning/abeilles/output/train/annots/"+filename2 + ".xml"
+                
                 save_path_file = save_path_file.replace(".jpg","")
                 print(save_path_file)
                 save_path_file = save_path_file
