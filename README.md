@@ -13,11 +13,22 @@ open a terminal and type following commands :
 ```python3 annot_tool.py```
 
 If you see an image (from your dataset) appearing on the screen, its most likely that its working
+HOW TO USE ANNOTATION TOOL : 
+
+Just click on the first position IN TOP LEFT CORNER OF THE OBJECT, and then click in THE BOTTOM RIGHT CORNER, you will see a red bouding box that isn't moving with your cursor (if the bouding box moves, click again in the right position), then, just close the window, another image will appear.
 
 Useful keybind in the annotation program : 
 - 'q' to quit
 - 'n' to skip image
 - 'c' to crop (for zooming on a restricted area, this cannot be undoned)
+
+`What are the advantages and inconvenients of this program :`
+ ✅  Easy to use
+ ✅  Totally free to use and no liscence
+ ✅  99% working lol
+ ✅  Im active and will respond to all of your concerns
+ ❌ A bit slow to refresh (made with matplotlib lol)
+ ❌ Sometimes the bounding box do weird things, (in that case type 'n' to go to next image and then delete the faulty image)
 
 Once all of the images are annoted, enter in terminal : 
 
