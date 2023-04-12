@@ -109,8 +109,7 @@ def on_click(event):
                 coordval = ((firstcoord[0],firstcoord[1]),(secondcoord[0],secondcoord[1]))
                 import xml.etree.ElementTree as ET
                 # Reading data from the xml file
-                with open('test.xml', 'r') as f:
-                    data = f.read()
+                
                 newname = filename.replace("images/","")
                 newname = newname.replace(".jpg","")
                 file = open("images/"+newname+".txt","a")
