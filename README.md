@@ -7,7 +7,8 @@ open terminal and type following commands
 
 ```cd annot_data```
   
-  then naviguate to the images folder into annot_data and put your dataset here                            
+  then naviguate to the images folder into annot_data and put your dataset here  
+  
 ```python3 annot_tool.py```
 
 If you see an image (from your dataset) appearing on the screen, its most likely that its working
