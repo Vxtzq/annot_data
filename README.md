@@ -26,8 +26,8 @@ Useful keybind in the annotation program :
 Just follow tutorial below
 
 ## Annot multiple classes :
-Organize all classes in directories (one directory per class)
-e.g images/0/*
+Organize all classes in directories (one directory per class), for example :
+    images/0/*
 
     images/1/*
     
