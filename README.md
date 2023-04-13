@@ -25,6 +25,16 @@ Useful keybind in the annotation program :
 ## Annot a single class :
 Just follow tutorial below
 
+## Annot multiple classes :
+Organize all classes in directories (one directory per class)
+e.g images/0/*
+    images/1/*
+    images/2/*
+```python3 annot_tool.py class_id=0``` # for images/0/*
+```python3 annot_tool.py class_id=1``` # for images/1/*
+```python3 annot_tool.py class_id=2``` # for images/2/*
+It is possible to change names later while training to change "obj.names" with all your names, in this order.
+
 ## What are the advantages and inconvenients of this program :
 
  ✔️  Easy to use
