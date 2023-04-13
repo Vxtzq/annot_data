@@ -15,6 +15,19 @@ rects = []
 im = None
 counter = 0
 t = np.arange(0.0, 1.0, 0.01)
+
+import argparse
+parser = argparse.ArgumentParser()
+parser.add_argument("class_id", help="ID of the class to annotate, set to 0 if single class")
+folder = ""
+folderabs = ""
+args = parser.parse_args()
+if int(args.class_id.replace("class_id=","")) != 0:
+    try:
+        folder = args.class_id.replace("class_id=","") + "/"
+    except:
+        print("class_id must be an int !")
+folderabs = "images/"+args.class_id.replace("class_id=","")+"/*"
 s = np.sin(2 * np.pi * t)
 filename = ""
 #ax.plot(t, s)
@@ -78,7 +91,7 @@ def on_key(event):
         os.remove(filename)
 def on_click(event):
     
-    global counter,crop,new,im,first,nextimage,line,filename,coords,coordlist,firstcoord,secondcoord
+    global counter,crop,new,im,first,nextimage,line,filename,coords,coordlist,firstcoord,secondcoord,folder
     
     
     if event.button is MouseButton.LEFT:
@@ -110,9 +123,10 @@ def on_click(event):
                 coordval = ((firstcoord[0],firstcoord[1]),(secondcoord[0],secondcoord[1]))
                 import xml.etree.ElementTree as ET
                 # Reading data from the xml file
-                
-                newname = filename.replace("images/","")
-                
+                if folder == "":
+                	newname = filename.replace("images/","")
+                else:
+                     newname = filename.replace("images/"+folder, "")
                 newname = replace(newname)
                 
                 file = open("images/"+newname+".txt","a")
@@ -133,7 +147,7 @@ def on_click(event):
                 #print("center"+str(center))
                 width = abs(width)
                 height = abs(height)
-                text = "0 "+str(centerx)+" "+str(centery)+" "+str(width)+" "+str(height)+"\n"
+                text = args.class_id.replace("class_id=","")+ " "+str(centerx)+" "+str(centery)+" "+str(width)+" "+str(height)+"\n"
                 file.write(text)
                 #file.close()
 
@@ -181,7 +195,7 @@ def on_click(event):
         #if event.button is MouseButton.RIGHT:
 
 first = 1
-for file in glob("images/*"):
+for file in glob(folderabs):
     filename = file
     
     print("file : "+filename)
