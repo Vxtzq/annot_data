@@ -10,7 +10,7 @@ open a terminal and type following commands :
   
   then naviguate to the "images" folder into annot_data and put your dataset here then, execute annotation code : 
   
-```python3 annot_tool.py```
+```python3 annot_tool.py class_id=0```
 
 If you see an image (from your dataset) appearing on the screen, its most likely that its working
 HOW TO USE ANNOTATION TOOL : 
@@ -21,6 +21,9 @@ Useful keybind in the annotation program :
 - 'q' to quit
 - 'n' to skip image
 - 'c' to crop (for zooming on a restricted area, this cannot be undoned)
+
+## Annot a single class :
+Just follow tutorial below
 
 ## What are the advantages and inconvenients of this program :
 
