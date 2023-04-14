@@ -38,6 +38,8 @@ Organize all classes in directories (one directory per class), for example :
 ```python3 annot_tool.py class_id=1``` # for images/1/*
 
 ```python3 annot_tool.py class_id=2``` # for images/2/*
+At the end, when all images are annotated, you can create a single folder somewhere else and put all images + all .txt corresponding (one per image) here.
+Because the repo to train takes a single folder of images with a .names file
 
 It is possible to change names later while training to change "obj.names" with all your names, in this order.
 
