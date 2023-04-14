@@ -38,10 +38,20 @@ Organize all classes in directories (one directory per class), for example :
 ```python3 annot_tool.py class_id=1``` # for images/1/*
 
 ```python3 annot_tool.py class_id=2``` # for images/2/*
-At the end, when all images are annotated, you can create a single folder somewhere else and put all images + all .txt corresponding (one per image) here.
-Because the repo to train takes a single folder of images with a .names file
+
 
 It is possible to change names later while training to change "obj.names" with all your names, in this order.
+## prepare data for training
+When all images are annoted, copy paste them in the images folder (so delete all 0,1,2 folders)
+Then enter in terminal
+
+```python3 traintest_split.py images_nb=<number of image to put in test set>```
+
+This code will split all annoted images into two .txt files : train.txt and test.txt.
+Images_nb arg is to define the number of images in test.txt set (at least 10-15 percent)
+All other images will go into train set.
+
+The train command will use those files (where has been put all images name)
 
 ## What are the advantages and inconvenients of this program :
 
@@ -57,13 +67,6 @@ It is possible to change names later while training to change "obj.names" with a
  
  ❌ Sometimes the bounding box do weird things, (in that case type 'n' to go to next image and then delete the faulty image)
 
-Once all of the images are annoted, enter in terminal : 
-
-```python3 traintest_split.py images_nb=<number of image to put in test set>```
-
-This code will split all annoted images into two .txt files : train.txt and test.txt.
-Images_nb arg is to define the number of images in test.txt set (at least 10-15 percent)
-All other images will go into train set.
 Now you are all set to train a custom model with the githu below !
 # Train custom yolov4 model with this github using the data this repository provides by following all the steps: 
   https://github.com/AlexeyAB/darknet
