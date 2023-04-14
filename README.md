@@ -10,7 +10,7 @@ open a terminal and type following commands :
   
   then naviguate to the "images" folder into annot_data and then create a folder "0"(your class id) and put your dataset here then, execute annotation code : 
   
-```python3 annot_tool.py class_id=0```
+```python3 annot_tool.py 0```
 
 If you see an image (from your dataset) appearing on the screen, its most likely that its working
 HOW TO USE ANNOTATION TOOL : 
@@ -33,11 +33,11 @@ Organize all classes in directories (one directory per class), for example :
     images/1/*
     
     images/2/*
-```python3 annot_tool.py class_id=0``` # for images/0/*
+```python3 annot_tool.py 0``` # for images/0/*
 
-```python3 annot_tool.py class_id=1``` # for images/1/*
+```python3 annot_tool.py 1``` # for images/1/*
 
-```python3 annot_tool.py class_id=2``` # for images/2/*
+```python3 annot_tool.py 2``` # for images/2/*
 
 
 It is possible to change names later while training to change "obj.names" with all your names, in this order.
@@ -45,7 +45,7 @@ It is possible to change names later while training to change "obj.names" with a
 When all images are annoted, copy paste them in the images folder (so delete all 0,1,2 folders)
 Then enter in terminal
 
-```python3 traintest_split.py images_nb=<number of image to put in test set>```
+```python3 traintest_split.py <number of image to put in test set>```
 
 This code will split all annoted images into two .txt files : train.txt and test.txt.
 Images_nb arg is to define the number of images in test.txt set (at least 10-15 percent)
