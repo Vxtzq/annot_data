@@ -8,10 +8,7 @@ open a terminal and type following commands :
 
 ```cd annot_data```
   
-  then naviguate to the "images" folder into annot_data and then cpublished
-Publish your first package
-Languages
-reate a folder "0"(your class id) and put your dataset here then, execute annotation code : 
+  then naviguate to the "images" folder into annot_data and then create a folder "0"(your class id) and put your dataset here then, execute annotation code : 
   
 ```python3 annot_tool.py class_id=0```
 
