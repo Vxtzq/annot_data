@@ -15,7 +15,8 @@ open a terminal and type following commands :
 ```python3 annot_tool.py 0```
 
 If you see an image (from your dataset) appearing on the screen, its most likely that its working
-HOW TO USE ANNOTATION TOOL : 
+
+## how to use annotation tool : 
 
 Just click on the first position IN TOP LEFT CORNER OF THE OBJECT, and then click in THE BOTTOM RIGHT CORNER, you will see a red bouding box that isn't moving with your cursor (if the bouding box moves, click again in the right position), then, just close the window, another image will appear.
 
