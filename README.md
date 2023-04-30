@@ -1,5 +1,5 @@
 # Description
-For yolov4 custom model train : annot data easily with this simple tool.
+For yolov4 custom model train : annotate data easily with this simple tool.
 To use with this repo : https://github.com/AlexeyAB/darknet
 # How to use
 open a terminal and type following commands : 
@@ -22,10 +22,10 @@ Useful keybind in the annotation program :
 - 'n' to skip image
 - 'c' to crop (for zooming on a restricted area, this cannot be undoned)
 
-## Annot a single class :
+## Annotate a single class :
 Just follow tutorial below
 
-## Annot multiple classes :
+## Annotate multiple classes :
 Organize all classes in directories (one directory per class), for example :
 
     images/0/*
