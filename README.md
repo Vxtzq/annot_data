@@ -52,6 +52,15 @@ Images_nb arg is to define the number of images in test.txt set (at least 10-15 
 All other images will go into train set.
 
 The train command will use those files (where has been put all images name)
+# Visualize data
+
+Use the 'see_data.py' script to see if all images were annoted correctly
+
+In the terminal : 
+
+```python3 see_data.py --datapath <here the path of the train.txt or test.txt created previously with traintest_split.py>```
+
+If some annotations are bad, go into the console (e.g the terminal) and delete image, txt file and the image name in the train.txt (or test.txt), else, the model will ignore the image or throw an error.
 
 ## What are the advantages and inconvenients of this program :
 
