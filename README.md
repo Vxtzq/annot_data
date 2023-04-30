@@ -48,7 +48,7 @@ It is possible to change names later while training to change "obj.names" with a
 When all images are annoted, copy paste them in the images folder (so delete all 0,1,2 folders)
 Then enter in terminal
 
-```python3 traintest_split.py --nb_test <number of image to put in test set> --path <path to image folder (containing all images with all .txt)>```
+```python3 traintest_split.py --nb_test <number of image to put in test set> --path <path to image folder (containing all images with all .txt)> --nb_class <number of classes in the dataset>```
 
 This code will split all annoted images into two .txt files : train.txt and test.txt.
 Images_nb arg is to define the number of images in test.txt set (at least 10-15 percent)
