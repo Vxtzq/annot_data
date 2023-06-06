@@ -14,13 +14,21 @@ Then, go into "images" folder and create as many folders as the number of classe
 Here is an example :
 
 images/0
+
 -->car.png
+
 -->car2.png
+
 images/1
+
 -->flower.png
+
 -->flower2.png
+
 images/2
+
 -->cat.png
+
 -->cat2.png
 
 
