@@ -9,28 +9,11 @@ open a terminal and type following commands :
 ```git clone https://github.com/proplayer2020/annot_data/ ```
 
 ```cd annot_data```
-  
-Naviguate to the "images" folder into annot_data and then create a folder (the folder's name must be the class id, starting from 0) and put the first class here. If the dataset contains multiple classes, create a folder for every classes (e. g "0", "1"...). After this, execute annotation code : 
-  
-```python3 annot_tool.py 0```
-
-This command is to annot class 0.
-
-If you see an image (from your dataset) appearing on the screen, its most likely that its working
-
-If you have multiple classes, change "0" with the class id.
-
-## how to use annotation tool : 
-
-Just click on the first position IN TOP LEFT CORNER OF THE OBJECT, and then click in THE BOTTOM RIGHT CORNER, you will see a red bouding box that isn't moving with your cursor (if the bouding box moves, click again in the right position), then, just close the window, another image will appear.
-
-Useful keybind in the annotation program : 
-- 'q' to quit
-- 'n' to skip image
-- 'c' to crop (for zooming on a restricted area, this cannot be undoned)
 
 ## Annotate a single class :
-Just follow tutorial below
+Just put all the images in images/0/* and run this command :
+
+```python3 annot_tool.py 0```
 
 ## Annotate multiple classes :
 Organize all classes in directories (one directory per class), for example :
@@ -48,6 +31,16 @@ Organize all classes in directories (one directory per class), for example :
 
 
 It is possible to change names later while training to change "obj.names" with all your names, in this order.
+
+## how to use annotation tool : 
+
+Just click on the first position IN TOP LEFT CORNER OF THE OBJECT, and then click in THE BOTTOM RIGHT CORNER, you will see a red bouding box that isn't moving with your cursor (if the bouding box moves, click again in the right position), then, just close the window, another image will appear.
+
+Useful keybind in the annotation program : 
+- 'q' to quit
+- 'n' to skip image
+- 'c' to crop (for zooming on a restricted area, this cannot be undoned)
+
 ## prepare data for training
 When all images are annoted, copy paste them in the images folder (so delete all 0,1,2 folders)
 Then enter in terminal
