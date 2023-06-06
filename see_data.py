@@ -1,6 +1,7 @@
 import matplotlib.pyplot as plt
 import numpy as np
 from PIL import Image
+from replaceformat import *
 import cv2
 import matplotlib.patches as patches
 from matplotlib.patches import Ellipse
@@ -13,9 +14,10 @@ print(args.datapath)
 files = open(args.datapath)
 first = 1
 for f in files:
-    name = f.replace("jpg","txt")
+    name = replacetxt(f)
     name = name.replace("\n","")
     file = open(name)
+    print(file)
     first = 1
     for line in file:
         print(name)
