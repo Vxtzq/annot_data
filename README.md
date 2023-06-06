@@ -10,8 +10,22 @@ open a terminal and type following commands :
 
 ```cd annot_data```
 
+Then, go into "images" folder and create as many folders as the number of classes (starting from 0) and put your images here (class order isnt important just do not shuffle classes into the same folder).
+Here is an example :
+
+images/0
+-->car.png
+-->car2.png
+images/1
+-->flower.png
+-->flower2.png
+images/2
+-->cat.png
+-->cat2.png
+
+
 ## Annotate a single class :
-Just put all the images in images/0/* and run this command :
+Just run this command :
 
 ```python3 annot_tool.py 0```
 
