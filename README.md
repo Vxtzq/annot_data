@@ -15,7 +15,10 @@ Naviguate to the "images" folder into annot_data and then create a folder (the f
 ```python3 annot_tool.py 0```
 
 This command is to annot class 0.
+
 If you see an image (from your dataset) appearing on the screen, its most likely that its working
+
+If you have multiple classes, change "0" with the class id.
 
 ## how to use annotation tool : 
 
