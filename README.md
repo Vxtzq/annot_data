@@ -70,7 +70,7 @@ In the terminal :
 
 If some annotations are bad, go into the console (e.g the terminal) and delete image, txt file and the image name in the train.txt (or test.txt), else, the model will ignore the image or throw an error.
 
-## What are the advantages and inconvenients of this program :
+# What are the advantages and inconvenients of this program :
 
  ✔️  Easy to use
  
