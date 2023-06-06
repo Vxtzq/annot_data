@@ -13,8 +13,9 @@ open a terminal and type following commands :
 Then, go into "images" folder and create as many folders as the number of classes (starting from 0) and put your images here (class order isnt important just do not shuffle classes into the same folder).
 Here is an example (if the model will have to recognize flowers and cars):
 
-images/0/* (car images here)
-images/1/* (flower images here)
+```images/0/*``` (car images here)
+
+```images/1/*``` (flower images here)
 
 ## Annotate a single class :
 Just run this command :
