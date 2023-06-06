@@ -10,10 +10,11 @@ open a terminal and type following commands :
 
 ```cd annot_data```
   
-  then naviguate to the "images" folder into annot_data and then create a folder "0"(your class id) and put your dataset here then, execute annotation code : 
+Naviguate to the "images" folder into annot_data and then create a folder (the folder's name must be the class id, starting from 0) and put the first class here. If the dataset contains multiple classes, create a folder for every classes (e. g "0", "1"...). After this, execute annotation code : 
   
 ```python3 annot_tool.py 0```
 
+This command is to annot class 0.
 If you see an image (from your dataset) appearing on the screen, its most likely that its working
 
 ## how to use annotation tool : 
