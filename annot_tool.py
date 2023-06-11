@@ -25,6 +25,7 @@ args = parser.parse_args()
 if int(args.class_id.replace("class_id=","")) != 0:
     try:
         folder = args.class_id.replace("class_id=","") + "/"
+        print(folder)
     except:
         print("class_id must be an int !")
 folderabs = "images/"+args.class_id.replace("class_id=","")+"/*"
@@ -68,11 +69,15 @@ def on_move(event):
                 
                 ax.add_patch(rect)
                 
-                plt.pause(0.0001)
-                try:
+                plt.pause(0.000000000000000001)
+                
+                
+                try:                    
                     rect.remove()
                 except:
-                    pass
+                    print("fail")
+                
+                
     #plt.pause(0.0001)
                 
 nextimage = False
@@ -126,9 +131,9 @@ def on_click(event):
                 if folder == "":
                 	newname = filename.replace("images/","")
                 else:
-                     newname = filename.replace("images/"+folder, "")
+                     newname = filename.replace("images/", "")
                 newname = replace(newname)
-                
+                print(folder)
                 file = open("images/"+newname+".txt","a")
                 firstcoord[0] = round(firstcoord[0],5)
                 firstcoord[1] = round(firstcoord[1],5)
