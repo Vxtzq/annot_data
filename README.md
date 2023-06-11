@@ -69,6 +69,17 @@ In the terminal :
 ```python3 see_data.py --datapath <here the path of the train.txt or test.txt created previously with traintest_split.py>```
 
 If some annotations are bad, go into the console (e.g the terminal) and delete image, txt file and the image name in the train.txt (or test.txt), else, the model will ignore the image or throw an error.
+# How to use the output:
+
+Download this repository following instructions : https://github.com/AlexeyAB/darknet
+
+Then compile it to make it work : https://github.com/AlexeyAB/darknet#how-to-compile-on-linux-using-make
+
+Take the two files generated in result folder (train.txt and test.txt) and put them in the data folder in the darknet repository
+
+Prepare for training : https://github.com/AlexeyAB/darknet#how-to-train-to-detect-your-custom-objects
+
+NOTE : if "darknet.exe" is written in the command, replace it with ./darknet on linux.
 
 # What are the advantages and inconvenients of this program :
 
