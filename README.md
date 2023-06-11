@@ -77,7 +77,8 @@ Then compile it to make it work : https://github.com/AlexeyAB/darknet#how-to-com
 
 Take the two files generated in "result" folder in this repository (train.txt and test.txt) and put them in the data folder in the darknet repository
 
-Prepare for training : https://github.com/AlexeyAB/darknet#how-to-train-to-detect-your-custom-objects
+Prepare for training (YOLO) : https://github.com/AlexeyAB/darknet#how-to-train-to-detect-your-custom-objects
+Prepare for training (YOLO tiny) : https://github.com/AlexeyAB/darknet#how-to-train-tiny-yolo-to-detect-your-custom-objects
 
 NOTE : if "darknet.exe" is written in the command, replace it with ./darknet on linux.
 
@@ -96,18 +97,6 @@ NOTE : if "darknet.exe" is written in the command, replace it with ./darknet on 
  ❌ Sometimes the bounding box do weird things, (in that case type 'n' to go to next image and then delete the faulty image)
 
 Now you are all set to train a custom model with the githu below !
-# Train custom yolov4 model with this github using the data this repository provides by following all the steps: 
-  https://github.com/AlexeyAB/darknet
-  
-#Usefull links for begginners to custom yolo model training (in the link below): 
-
-  -https://github.com/AlexeyAB/darknet#how-to-compile-on-linux-using-make - once the darknet repo downloaded, compile it using make command
-  
-  -https://github.com/AlexeyAB/darknet#how-to-train-to-detect-your-custom-objects - train custom yolov2, v3 or v4  (if you have used this repo, do yolov4)
-  
-  -https://github.com/AlexeyAB/darknet#how-to-train-tiny-yolo-to-detect-your-custom-objects - train yolov4 TINY for mobile developpmen
 
 # Help
 feel free to post issue, im active and i will try to respond to your questions
-# Other usefull tools (Coming soon): 
-use "convertdataset.py" to resize all images and convert them to jpg (no image replacing, but if you dont want all images to be sort of duplicated, do it in another directory) 
