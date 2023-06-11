@@ -75,7 +75,7 @@ Download this repository following instructions : https://github.com/AlexeyAB/da
 
 Then compile it to make it work : https://github.com/AlexeyAB/darknet#how-to-compile-on-linux-using-make
 
-Take the two files generated in result folder (train.txt and test.txt) and put them in the data folder in the darknet repository
+Take the two files generated in "result" folder in this repository (train.txt and test.txt) and put them in the data folder in the darknet repository
 
 Prepare for training : https://github.com/AlexeyAB/darknet#how-to-train-to-detect-your-custom-objects
 
