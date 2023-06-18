@@ -1,5 +1,5 @@
 # Description
-Have you ever wanted to train your custom detection model ?
+Have you ever wanted to train your custom image detection model ?
 
 This repository will help annotate data easily for it.
 
