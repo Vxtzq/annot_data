@@ -9,7 +9,7 @@ Use with this repo : https://github.com/AlexeyAB/darknet
 
 ##### May also work on Mac OS but i am unsure, feel free to try.
 
-##### Totally works on Linux !
+##### Totally works on Linux 🐧 !
 # How to use
 open a terminal and type following commands : 
 
