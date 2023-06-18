@@ -1,7 +1,7 @@
 # Description
 Have you ever wanted to train your custom image detection model ?
 
-This repository will help annotate data easily for it.
+This repository will help annotate data easily for that.
 
 Use with this repo : https://github.com/AlexeyAB/darknet
 # different OS
