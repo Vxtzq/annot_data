@@ -1,6 +1,9 @@
 # Description
-For yolov4 custom model train : annotate data easily with this simple tool.
-To use with this repo : https://github.com/AlexeyAB/darknet
+Have you ever wanted to train your custom detection model ?
+
+This repository will help to annotate data easily for it.
+
+Use with this repo : https://github.com/AlexeyAB/darknet
 # different OS
 ##### Probably work with Windows but i didn't tried.
 
