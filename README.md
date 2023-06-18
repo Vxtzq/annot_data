@@ -1,7 +1,7 @@
 # Description
 Have you ever wanted to train your custom detection model ?
 
-This repository will help to annotate data easily for it.
+This repository will help annotate data easily for it.
 
 Use with this repo : https://github.com/AlexeyAB/darknet
 # different OS
