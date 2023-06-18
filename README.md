@@ -1,4 +1,4 @@
- ## ⚠️ This repository is for LINUX ONLY (sorry windows users) ⚠️
+ ## Works now with linux and windows
 
 # Description
 For yolov4 custom model train : annotate data easily with this simple tool.
