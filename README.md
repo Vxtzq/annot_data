@@ -1,5 +1,3 @@
- ## Works now with linux and windows
-
 # Description
 For yolov4 custom model train : annotate data easily with this simple tool.
 To use with this repo : https://github.com/AlexeyAB/darknet
