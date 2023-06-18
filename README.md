@@ -5,9 +5,9 @@ This repository will help annotate data easily for it.
 
 Use with this repo : https://github.com/AlexeyAB/darknet
 # different OS
-##### Probably work with Windows but i didn't tried.
+##### Probably work on Windows but i didn't tried.
 
-##### May also work with Mac OS but i am unsure, feel free to try.
+##### May also work on Mac OS but i am unsure, feel free to try.
 
 ##### Totally works on Linux !
 # How to use
