@@ -2,11 +2,11 @@
 For yolov4 custom model train : annotate data easily with this simple tool.
 To use with this repo : https://github.com/AlexeyAB/darknet
 # different OS
-Probably work with Windows but i didn't tried.
+### Probably work with Windows but i didn't tried.
 
-May also work with Mac OS but i am unsure, feel free to try.
+### May also work with Mac OS but i am unsure, feel free to try.
 
-Totally works on Linux !
+### Totally works on Linux !
 # How to use
 open a terminal and type following commands : 
 
