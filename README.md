@@ -1,3 +1,5 @@
+### New version here : https://github.com/proplayer2020/annot-tool-GUI
+
 # Description
 Have you ever wanted to train your custom image detection model ?
 
