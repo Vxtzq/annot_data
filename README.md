@@ -105,7 +105,7 @@ NOTE : if "darknet.exe" is written in the command, replace it with ./darknet on 
  
  ❌ Sometimes the bounding box do weird things, (in that case type 'n' to go to next image and then delete the faulty image)
 
-Now you are all set to train a custom model with the githu below !
+Now you are all set to train a custom model with the github below !
 
 # Help
 feel free to post issue, im active and i will try to respond to your questions
